@@ -1,0 +1,81 @@
+body{
+    background: url('http://subtlepatterns.com/patterns/p4.png');
+    font-family: 'Tienne', serif;
+    color: darkslategrey;
+}
+#wrapper{
+    box-sizing: border-box; 
+    width: 1000px;
+    margin: 15px auto;
+    position: relative;
+}
+#myInfo{
+    position: fixed;
+    width: 300px;
+    box-sizing: border-box;
+    top: 30px;
+    bottom: 20px;
+    float: left;
+    background: url('http://subtlepatterns.com/patterns/skulls.png');
+    padding: 15px;
+    box-shadow: 0 0 20px #888888;
+    border-radius: 10px 0 0 10px;
+    z-index: 1;
+    font-size: 14px;
+}
+#resContents{
+    width: 700px;
+    float: right;
+    box-sizing: border-box; 
+    padding: 10px 15px;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px #888888;
+    border: solid 1px #CCCCCC;
+    position: relative;
+    z-index: 10;
+}
+h1{
+    color: #4A4AFD;
+    font-family: 'Candal', sans-serif;
+}
+h2 {
+  color: #4A4AFD;
+  font-family: 'Candal',sans-serif;
+  font-style: italic;
+}
+h3 {
+  margin: 25px 0 10px;
+}
+em{
+  color: #5757F3;
+}
+section{
+    padding: 10px 20px;
+    background:#EAEAEA; 
+    font-size: 14px;
+    margin: 15px 0 0 0; 
+    border-radius: 5px;
+}
+a.button:link, a.button:visited {
+  color: #8B0000;
+  text-decoration: none;
+  display: block;
+  background: #eaeaea;
+  width: 75px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  margin: 5px 0 0 0;
+  box-shadow: 3px 3px 3px #888;
+}
+a.button:hover{
+    background: #5757F3;
+    color: #FFFFFF;
+}
+a:link, a:visited {
+  color: #8B0000;
+  text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
